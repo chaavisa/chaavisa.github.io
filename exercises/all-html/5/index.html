@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Japanese</h1>
+
+<ruby>
+ 食べ物 <rt> た　 もの </rt>
+</ruby>
+
+</body>
+</html>
+
+
+<p>Click the button below for the meaning of this word.</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>food</h2>
+</template>
+
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+
+</body>
+</html>
