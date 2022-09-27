@@ -56,7 +56,7 @@ body {
 }
 
 .simplelink:hover {
-  background: -webkit-linear-gradient(#dec8ab, #4879b1, #3e6a43);
+  background: -webkit-linear-gradient(left, #dec8ab, #4879b1, #3e6a43);
 }
 
 .gradient-fill {
