@@ -1,0 +1,178 @@
+body {
+  background-color: #ededed;
+}
+
+.shape {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #e07319 ;
+  transition: all 1s ease-in-out;
+}
+
+
+
+.shape:hover {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: webkit-radial-gradient( #e07319, #f5dd95);
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
+}
+
+
+
+
+.c1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 456px;
+  bottom: 575px;
+  right: 216px;
+  left: 373px;
+}
+.c1: hover {
+  opacity: 0
+  transition: all ease-in-out 0.5s;
+}
+
+.c2 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 0px;
+  bottom: auto;
+  left: 20%;
+  right: auto;
+}
+.c3 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 0px;
+  bottom: auto;
+  left: 90%;
+  right: auto;
+}
+.c4 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 20px;
+  bottom: auto;
+  left: 30%;
+  right: auto;
+}
+.c5 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 0px;
+  bottom: auto;
+  left: 6%;
+  right: auto;
+}
+.c6 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 0px;
+  bottom: auto;
+  left: 20%;
+  right: auto;
+}
+.c7 {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 50px;
+  bottom: auto;
+  left: 60%;
+  right: auto;
+}
+.c8 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 90px;
+  bottom: 0px;
+  left: 50%;
+  right: auto;
+}
+.c9 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 50px;
+  bottom: auto;
+  left: 9%;
+  right: auto;
+}
+
+.c10 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 100px;
+  bottom: auto;
+  left: 30%;
+  right: auto;
+}
+
+.c11 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 100px;
+  bottom: auto;
+  left: 70%;
+  right: auto;
+}
+
+.c12 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 100px;
+  bottom: auto;
+  left: 40%;
+  right: auto;
+}
+
+
+.r1 {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  bottom: 0;
+}

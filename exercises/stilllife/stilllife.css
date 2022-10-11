@@ -1,0 +1,88 @@
+body {
+  background-color: #000000;
+}
+
+
+
+.table {
+  position: fixed;
+  border-bottom: 300px solid #1f121b;
+	border-left: 190px solid transparent;
+	border-right: 190px solid transparent;
+	bottom: 120px;
+	width: 1350px;
+  }
+
+
+  .basket {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    bottom: 200px ;
+    left: 650px ;
+    background: #976d3f;
+    border-radius: 60% / 20%;
+    }
+
+    .l1b {
+      position: fixed ;
+      width: 180px;
+      height: 150px;
+      bottom: 410px ;
+      left: 750px ;
+      background: #eabc5c;
+      border-radius: 100px / 80px;
+      }
+
+      .l2b {
+        position: fixed ;
+        width: 150px;
+        height: 120px;
+        bottom: 430px ;
+        left: 600px ;
+        background: #eabc5c;
+        border-radius: 100px / 80px;
+        }
+
+        .l3b {
+          position: fixed ;
+          width: 150px;
+          height: 120px;
+          bottom: 430px ;
+          left: 900px ;
+          background: #eabc5c;
+          border-radius: 100px / 80px;
+          }
+
+
+          .l1p {
+            position: fixed ;
+            width: 150px;
+            height: 120px;
+            bottom: 230px ;
+            left: 300px ;
+            background: #eabc5c;
+            border-radius: 100px / 80px;
+            }
+
+            .l2p {
+              position: fixed ;
+              width: 150px;
+              height: 120px;
+              bottom: 230px ;
+              left: 170px ;
+              background: #eabc5c;
+              transform: rotate(40deg) ;
+              border-radius: 100px / 80px;
+              }
+
+              .l3p {
+                position: fixed ;
+                width: 150px;
+                height: 120px;
+                bottom: 230px ;
+                left: 400px ;
+                background: #eabc5c;
+                transform: rotate(120deg) ;
+                border-radius: 100px / 80px;
+                }
