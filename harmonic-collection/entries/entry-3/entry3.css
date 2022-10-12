@@ -19,12 +19,11 @@ body {
   border-radius: 100px;
   width: 200px;
   height: 200px;
-  background-color: webkit-radial-gradient( #e07319, #f5dd95);
+  background-color: rgb(247,147,68);
+  background-color: linear-gradient(0deg, rgba(247,147,68,1) 16%, rgba(2,36,108,1) 100%);
   -webkit-transform: scale(2.25);
   cursor: pointer;
 }
-
-
 
 
 .c1 {
