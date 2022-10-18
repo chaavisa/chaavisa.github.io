@@ -1,0 +1,341 @@
+
+html{
+  cursor: url("imgs/pum.png"), auto;
+}
+
+body {
+margin: 10px;
+padding: 100px;
+font-family: 'Paytone One', sans-serif;
+
+}
+
+.content {
+  position: relative;
+  place-items: center;
+  color: #ffffff;
+  width: 100%;
+  font-size: 30px;
+}
+
+.al:hover{
+  color: #edbf1d;
+}
+
+.period {
+  text-align: center;
+  color: #ffffff;
+  top: 200px;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+.nov{
+  color: white;
+}
+
+.nov:hover {
+  color: #b45000;
+  font-size: 28px;
+  transition: ease all .5s;
+}
+
+.sep{
+  color: white;
+}
+
+.sep:hover {
+  color: #b45000;
+  font-size: 28px;
+  transition: ease all .5s;
+}
+
+.e {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  top: 100px;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.last:hover {
+font-size: 20px;
+color: #b4b400;
+  transition: ease all .5s;
+}
+
+h1 {
+  font-size: 100px;
+  place-items: center;
+  color: #ffffff;
+}
+
+
+
+.title {
+  text-align: center;
+
+  }
+
+  .container {
+    max-width: auto;
+  }
+
+
+.container video{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+a{
+  position: relative;
+  font-size: 10px;
+  color: olive;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    color: #000000;
+      cursor: url("imgs/pum.png"), auto;
+  }
+
+  video{
+    display: none;
+  }
+
+  body{
+  background: url(imgs/autumn3.png);
+  background-size: cover;
+  }
+
+  p{
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    background: rgba(150,147,144,0.3);
+  }
+
+  p:hover{
+    background: rgba(187,103,2,0.3);
+  }
+
+  .al:hover{
+    color: #cf5c00;
+  }
+
+  .period {
+    text-align: center;
+    color: #b5b5b5;
+    top: 200px;
+    width: 100%;
+    font-size: 20px;
+
+  }
+
+  .nov{
+    color: #b5b5b5;
+  }
+
+  .nov:hover {
+    color: #b45000;
+    font-size: 28px;
+    transition: ease all .5s;
+  }
+
+  .sep{
+    color: #b5b5b5;
+  }
+
+  .sep:hover {
+    color: #b45000;
+    font-size: 28px;
+    transition: ease all .5s;
+  }
+
+
+.e{
+  font-size: 15px;
+  color: #b5b5b5;
+}
+
+  .last:hover {
+  font-size: 18px;
+  color: #b4b400;
+    transition: ease all .5s;
+  }
+
+  a{
+    position: relative;
+    font-size: 7px;
+    color: olive;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+    color: #c7600b;
+      cursor: url("imgs/pum.png"), auto;
+  }
+
+  video{
+    display: none;
+  }
+
+  body{
+  background: #929903;
+  }
+
+  p{
+    font-size: 16px;
+    color: #3c4505;
+background: rgba(0, 0, 0, 0);
+  }
+
+p:hover{
+  color: #aa410a;
+  background: rgba(0, 0, 0, 0);
+}
+
+  .al:hover{
+    color: #aa410a;
+  }
+
+  .period {
+    text-align: center;
+    color: #5d6631;
+    top: 200px;
+    width: 100%;
+    font-size: 15px;
+
+  }
+
+  .nov{
+    color: #b5b5b5;
+  }
+
+  .nov:hover {
+    color: #b45000;
+    font-size: 20px;
+    transition: ease all .5s;
+  }
+
+  .sep{
+    color: #b5b5b5;
+  }
+
+  .sep:hover {
+    color: #b45000;
+    font-size: 20px;
+    transition: ease all .5s;
+  }
+
+
+.e{
+  font-size: 10px;
+  color: #661613;
+}
+
+  .last:hover {
+  font-size: 14px;
+  color: #aa410a;
+    transition: ease all .5s;
+  }
+
+  a{
+    position: relative;
+    font-size: 6px;
+    color: white;
+  }
+}
+
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 24px;
+    color: #8f2b45;
+      cursor: url("imgs/pum.png"), auto;
+  }
+
+  video{
+    display: none;
+  }
+
+  body{
+  background: #bdafae;
+  }
+
+  p{
+    font-size: 13px;
+    color: #5d1a21;
+background: rgba(0, 0, 0, 0);
+  }
+
+p:hover{
+  color: #aa410a;
+  background: rgba(0, 0, 0, 0);
+}
+
+  .al:hover{
+    color: #cb5dff;
+  }
+
+  .period {
+    text-align: center;
+    color: #5d6631;
+    top: 200px;
+    width: 100%;
+    font-size: 12px;
+    background: rgba(133, 187, 185, 0.2);
+  }
+
+.period:hover{
+  background: rgba(189, 199, 53, 0.2);
+}
+  .nov{
+    color: #5d6631;
+  }
+
+  .nov:hover {
+    color: #b45000;
+    font-size: 16px;
+    transition: ease all .5s;
+  }
+
+  .sep{
+    color: #5d6631;
+  }
+
+  .sep:hover {
+    color: #b45000;
+    font-size: 16px;
+    transition: ease all .5s;
+  }
+
+
+.e{
+  font-size: 9px;
+  color: #661613;
+}
+
+  .last:hover {
+  font-size: 10px;
+  color: #aa410a;
+    transition: ease all .5s;
+  }
+
+  a{
+    position: relative;
+    font-size: 5px;
+    color: black;
+  }
+}
