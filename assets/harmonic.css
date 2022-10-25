@@ -161,7 +161,7 @@ a.chaa:hover {
   background: -webkit-linear-gradient(#cd7c22, #cf4700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 0.8s ease;
+  transition: ease all  0.8s ease;
 }
 
 .fle:hover {
