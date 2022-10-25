@@ -3,6 +3,7 @@ body {
   background-size:cover;
   width:100%;
   height:100%;
+  cursor: url(half2.png), auto;
 }
 
 
@@ -25,6 +26,7 @@ a.chaa{
 a.chaa:hover {
   opacity: 1;
   font-size: 35px;
+  cursor: url(half2.png), auto;
 }
 
 .en{
@@ -64,6 +66,7 @@ a.chaa:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+cursor: url(half2.png), auto;
 }
 
 .hover{
@@ -90,6 +93,7 @@ a.chaa:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+  cursor: url(half2.png), auto;
 }
 
 .shapes{
@@ -116,6 +120,7 @@ a.chaa:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+  cursor: url(half2.png), auto;
 }
 
 .response{
@@ -142,6 +147,7 @@ a.chaa:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+  cursor: url(half2.png), auto;
 }
 
 
@@ -169,6 +175,7 @@ a.chaa:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+  cursor: url(half2.png), auto;
 }
 
 
@@ -180,4 +187,5 @@ a:hover {
   opacity: 1;
   font-size: 30px;
   transition: ease all .6s;
+  cursor: url(half2.png), auto;
 }
