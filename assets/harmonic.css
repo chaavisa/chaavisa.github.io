@@ -1,13 +1,183 @@
-a{
-  color: #314d34;
-  font-size: 20px;
-}
-
-h1{
-  color: #355c88;
-  font-size: 40px;
-}
-
 body {
-  background-color: #eedcc9;
+  background-image: url("entriesbg.jpeg");
+  background-size:cover;
+  width:100%;
+  height:100%;
+}
+
+
+.cha{
+  position: fixed;
+  text-align: right;
+  color: #ffffff;
+  top: 15px;
+  right: 40px;
+  width: 100%;
+  font-size: 35px;
+  font-family: sans-serif;
+
+}
+
+a.chaa{
+  color: #ffffff;
+}
+
+a.chaa:hover {
+  opacity: 1;
+  font-size: 35px;
+}
+
+.en{
+  position: fixed;
+  text-align: none;
+  color: #ffffff;
+  top: 140px;
+  left: 150px;
+  width: 100%;
+  font-size: 70px;
+  font-family: sans-serif;
+
+}
+
+
+.concrete{
+  position: fixed;
+  text-align: none;
+  color: #ffffff;
+  top: 290px;
+  left: 100px;
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.con {
+  background: -webkit-linear-gradient(#cd7c22, #cf4700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.con:hover {
+  background: -webkit-radial-gradient(#458ecd, #95b9cc, #dfdac1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.hover{
+  position: fixed;
+  text-align: right;
+  color: #ffffff;
+  top: 320px;
+  right: 350px;
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.hov {
+  background: -webkit-linear-gradient(#458ecd, #95b9cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.hov:hover {
+  background: -webkit-radial-gradient(#cd7c22, #cf4700, #dfd9c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.shapes{
+  position: fixed;
+  text-align: none;
+  color: #ffffff;
+  top: 430px;
+  left: 570px;
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.shape {
+  background: -webkit-linear-gradient(#cd7c22, #cf4700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.shape:hover {
+  background: -webkit-radial-gradient(#458ecd, #95b9cc, #dfdac1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.response{
+  position: fixed;
+  text-align: right;
+  color: #ffffff;
+  top: 540px;
+  right: 510px;
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.res {
+  background: -webkit-linear-gradient(#458ecd, #95b9cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.res:hover {
+  background: -webkit-radial-gradient(#cd7c22, #cf4700, #dfd9c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+.flex{
+  position: fixed;
+  text-align: left;
+  color: #ffffff;
+  top: 680px;
+  left: 370px;
+  width: 100%;
+  font-size:30px;
+  font-family: sans-serif;
+
+}
+
+.fle {
+  background: -webkit-linear-gradient(#cd7c22, #cf4700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.fle:hover {
+  background: -webkit-radial-gradient(#458ecd, #95b9cc, #dfdac1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+a{
+  color: #ffffff;
+}
+
+a:hover {
+  opacity: 1;
+  font-size: 30px;
+  transition: ease all .6s;
 }

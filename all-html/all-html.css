@@ -1,0 +1,257 @@
+body {
+  background-image: url("blue.jpeg");
+  background-size:cover;
+
+  width:100%;
+  height:100%;
+}
+
+.cha{
+  position: fixed;
+  text-align: right;
+  color: #ffffff;
+  top: 15px;
+  right: 40px;
+  width: 100%;
+  font-size: 35px;
+  font-family: sans-serif;
+
+}
+
+a.chaa{
+  color: #ffffff;
+}
+
+a.chaa:hover {
+  opacity: 1;
+  font-size: 35px;
+}
+
+.all{
+  position: fixed;
+  text-align: none;
+  color: #ffffff;
+  top: 140px;
+  left: 150px;
+  width: 100%;
+  font-size: 70px;
+  font-family: sans-serif;
+
+}
+
+.one {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 190px;
+  left: 80px;
+}
+
+.one:hover {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+transition: ease all .7s;
+
+}
+
+.two {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 42px;
+  left: 510px;
+}
+
+.two:hover {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+transition: ease all .7s;
+
+}
+
+.twoo {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 42px;
+  left: 528px;
+}
+
+/*
+.shape2 {
+padding: 50px;
+}
+
+.shape2:hover {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+transition: ease all .7s;
+}
+*/
+
+.three {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 130px;
+  left: 890px;
+}
+
+.threee:hover {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+transition: ease all .7s;
+
+}
+
+.threee {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 130px;
+  left: 908px;
+}
+
+.threeee {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 130px;
+  left: 926px;
+}
+
+.four {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 42px;
+  right: 540px;
+}
+
+.fourr {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 42px;
+  right: 558px;
+}
+
+.fourr:hover {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+transition: ease all .7s;
+}
+
+.fourrr {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 42px;
+  right: 576px;
+}
+
+.fourrrr {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 42px;
+  right: 594px;
+}
+
+.five {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 300px;
+  right: 330px;
+}
+
+.five {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 300px;
+  right: 330px;
+}
+
+.fivee {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 300px;
+  right: 312px;
+}
+
+.fiveee {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 300px;
+  right: 294px;
+}
+
+.fiveee:hover {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+transition: ease all .7s;
+
+}
+
+.fiveeee {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 300px;
+  right: 276px;
+}
+
+.fiveeeee {
+  position: fixed;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 9px;
+  height: 46px;
+  bottom: 300px;
+  right: 258px;
+}
+
+a {
+  font-size: 30px;
+  color: #ffffff;
+}
