@@ -2,13 +2,24 @@
 <html>
 <head>
   <link rel="stylesheet" href="assets/main.css">
-
+  <meta http-equiv"X-UA-Compatible" content="ie=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="icon" href="assets/circle2.png">
   <title>chacha</title>
 </head>
 <body>
+
+  <div class="cursor"></div>
+
+  <script>
+
+  const cursor = document.querySelector('.cursor');
+
+  document.addEventListener('mousemove' , e => {
+    cursor.setAttribute("style" , "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+  })
+  </script>
 
 
   <div class="cha"><a class="chaa" href="index.html">chacha aungkavanich</a></div>
