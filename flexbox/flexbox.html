@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="flexbox.css">
-
+  <meta http-equiv"X-UA-Compatible" content="ie=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,44 +10,98 @@
 </head>
 <body>
 
+<div class="cursor"></div>
+
+<script>
+
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove' , e => {
+  cursor.setAttribute("style" , "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+</script>
+
   <div class="dec"><h1>december</h1></div>
 
 <div class="y2022"><h2>2022</h2></div>
 
+<div class="hover">hover on the days to unlock some secrets</div>
 
-  <div class="container">
-    <div class="m1">1</div>
-    <div class="m2">2</div>
-    <div class="m3">3</div>
-    <div class="m4">4</div>
-    <div class="m5">5</div>
-    <div class="m6">6</div>
-    <div class="m7">7</div>
-    <div class="m8">8</div>
-    <div class="m9">9</div>
-    <div class="m10">10</div>
-    <div class="m11">11</div>
-    <div class="m12">12</div>
-    <div class="m13">13</div>
-    <div class="m14">14</div>
-    <div class="m15">15</div>
-    <div class="m16">16</div>
-    <div class="m17">17</div>
-    <div class="m18">18</div>
-    <div class="m19">19</div>
-    <div class="m20">20</div>
-    <div class="m21">21</div>
-    <div class="m22">22</div>
-    <div class="m23">23</div>
-    <div class="m24">24</div>
-    <div class="m25">25</div>
-    <div class="m26">26</div>
-    <div class="m27">27</div>
-    <div class="m28">28</div>
-    <div class="m29">29</div>
-    <div class="m30">30</div>
-    <div class="m31">31</div>
+  <div class="month">
 
-  
+  <div class="week">
+    <div class="day1">01</div>
+    <div class="day1">02</div>
+    <div class="day1">03</div>
+    <div class="day1">04</div>
+    <div class="day">1</div>
+    <div class="day">2</div>
+    <div class="day">3</div>
+  </div>
+
+  <div class="week">
+    <div class="day">4</div>
+    <div class="day">5</div>
+    <div class="day">6</div>
+    <div class="day">7</div>
+    <div class="day">8</div>
+    <div class="day">9</div>
+    <div class="day">10
+        <div class="nop"> <img src="imgs/nop.jpg" alt="nop" style="width:70px"></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="day">11</div>
+    <div class="day">12</div>
+    <div class="day">13</div>
+    <div class="day">14</div>
+    <div class="day">15</div>
+    <div class="day">16</div>
+    <div class="day">17</div>
+  </div>
+
+  <div class="week">
+    <div class="day">18</div>
+    <div class="day">19</div>
+    <div class="day">20</div>
+    <div class="day">21</div>
+    <div class="day">22</div>
+    <div class="day">23</div>
+    <div class="dayy">24
+      <div class="holiday">
+        christmas eve
+          </div>
+          <div class="milk"> <img src="imgs/milkk.png" alt="milk" style="width:40px"></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="dayy">25
+      <div class="holiday">
+        christmas
+          </div>
+            <div class="ct"> <img src="imgs/christmastree.png" alt="ct" style="width:40px"></div>
+    </div>
+    <div class="day">26</div>
+    <div class="day">27</div>
+    <div class="day">28</div>
+    <div class="day">29</div>
+    <div class="dayy">30
+      <div class="holiday">
+        new year's eve
+          </div>
+          <div class="pre"> <img src="imgs/present.png" alt="pre" style="width:40px"></div>
+    </div>
+    <div class="dayy">31
+      <div class="holiday">
+        new year's
+          </div>
+          <div class="fireworks"> <img src="imgs/fireworks.png" alt="fireworks" style="width:40px"></div>
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>
