@@ -136,9 +136,10 @@ right: 630px;
 }
 
 
+
 .day {
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-grow: 0;
+  flex-shrink: 0;
   flex-basis: 0;
 }
 
@@ -156,6 +157,13 @@ right: 630px;
   height: 130px;
   background-color: #611515;
   color:  #0f2f12;
+}
+
+
+.day:hover {
+  background-color:  #d4d2cd;
+  color: #d4d2cd;
+  transition: ease all 1s;
 }
 
 .day1 {
@@ -183,18 +191,23 @@ right: 630px;
   width: 130px;
   height: 130px;
   background-color: #611515;
-  color:  #0f2f12;
+  color:  #d4d2cd;
 }
 
 .dayy:hover {
-  color: #611515;
+  color:  #611515;
   transition: ease all 1s;
 }
 
 .ct {
   opacity: 0;
   position: relative;
-  bottom: 67px;
+  bottom: 118px;
+
+}
+
+.ct img {
+  width: 40px;
 }
 
 .ct:hover {
@@ -205,7 +218,11 @@ right: 630px;
 .pre {
   opacity: 0;
   position: relative;
-  bottom: 84px;
+  bottom: 20px;
+}
+
+.pre img {
+  width: 36px;
 }
 
 .pre:hover {
@@ -216,7 +233,11 @@ right: 630px;
 .milk {
   opacity: 0;
   position: relative;
-  bottom: 93px;
+  bottom: 123px;
+}
+
+.milk img {
+  width: 40px;
 }
 
 .milk:hover {
@@ -227,7 +248,11 @@ right: 630px;
 .fireworks {
   opacity: 0;
   position: relative;
-  bottom: 88px;
+  bottom: 138px;
+}
+
+.fireworks img {
+  width: 40px;
 }
 
 .fireworks:hover {
@@ -238,7 +263,11 @@ right: 630px;
 .nop {
   opacity: 0;
   position: relative;
-  bottom: 20px;
+  bottom: 120px;
+}
+
+.nop img {
+  width: 50px;
 }
 
 .nop:hover {
@@ -249,8 +278,9 @@ right: 630px;
 
 .holiday {
   opacity: 0;
-  padding: 13px;
+  padding: 28px;
 text-align: center;
+color: #d4d2cd;
 
 }
 
@@ -266,7 +296,7 @@ text-align: center;
 @media (max-width:1024px){
 
   .dec {
-    color: black;
+    color: #0f2f12;
     text-align: center;
     font-size: 50px;
     letter-spacing: 5px;
@@ -328,46 +358,59 @@ text-align: center;
   }
 
   .ct {
-
-    bottom: 50px;
-    width: 20px;
+    bottom: 80px;
     transition: ease all 1s;
+  }
+
+  .ct img {
+  width: 30px;
   }
 
   .milk {
-
-    bottom: 60px;
-    width: 30px;
+    bottom: 90px;
     transition: ease all 1s;
+  }
+
+  .milk img {
+  width: 30px;
   }
 
   .pre {
-
-    bottom: 55px;
-    width: 30px;
     transition: ease all 1s;
   }
 
-  .fireworks {
+  .pre img {
+  width: 30px;
+  }
 
-    bottom: 55px;
-    width: 30px;
+  .fireworks {
+    bottom: 86px;
     transition: ease all 1s;
+  }
+
+  .fireworks img {
+  width: 30px;
+  }
+
+  .nop {
+      bottom: 80px;
+    transition: ease all 1s;
+  }
+  .nop img {
+  width: 40px;
   }
 
   .holiday {
     opacity: 0;
-    font-size: 2px;
+    font-size: 1px;
 
   }
 
   .holiday:hover {
     opacity: 1;
-    font-size: 13px;
+    font-size: 15px;
       transition: ease all 1s;
 
   }
-
-
 
 }
