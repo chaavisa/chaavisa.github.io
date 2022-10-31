@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   height: 100vh;
-  cursor: cell;
+    cursor: cell;
 
 
 }
@@ -163,6 +163,7 @@ right: 630px;
 .day:hover {
   background-color:  #d4d2cd;
   color: #d4d2cd;
+  cursor: url(imgs/spk.png), auto;
   transition: ease all 1s;
 }
 
