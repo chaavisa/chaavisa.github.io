@@ -6,6 +6,14 @@ body {
   height:100%;
 }
 
+/*
+<a href="../exercises/all-html/1/index.html"> <h3>1</h3></a>
+<a href="../exercises/all-html/2/index.html"> <h3>2</h3></a>
+<a href="../exercises/all-html/3/index.html"> <h3>3</h3></a>
+<a href="../exercises/all-html/4/index.html"> <h3>4</h3></a>
+<a href="../exercises/all-html/5/index.html"> <h3>5</h3></a>
+*/
+
 .chaa{
   position: fixed;
   text-align: right;
