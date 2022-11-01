@@ -105,6 +105,7 @@ right: 630px;
   left: 40px;
   animation-name: example;
   animation-duration: 10s;
+  animation-iteration-count: infinite;
 
 }
 
