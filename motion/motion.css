@@ -1,0 +1,311 @@
+html{
+  cursor: url(imgs/butcursor.png), auto;
+}
+
+.moonsun {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: #d8dee3;
+  position: fixed;
+  text-align: right;
+  top: 80px;
+  right: 380px;
+  opacity: 1;
+  animation:
+  change 15s linear infinite normal,
+    pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate,
+    blur 4s ease infinite alternate;
+}
+
+@keyframes change {
+  0% {
+   background-color: #d8dee3;
+ }
+ 15% {
+  background-color: #d8dee3;
+}
+25% {
+  background-color: #e3dfd8;
+}
+50% {
+ background-color: #fbccad;
+}
+70% {
+background-color: #fac374;
+}
+   100% {
+   background-color: #fac374;
+ }
+}
+
+.ray {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(#e4eaee, #0f1f42, #e4eaee);
+  opacity: 0.9;
+  position: fixed;
+  text-align: right;
+  top: 55px;
+  right: 355px;
+  z-index: -1;
+  animation:
+  rchange 15s linear infinite normal;
+}
+
+
+@keyframes rchange {
+  0% {
+   background: -webkit-radial-gradient(#e4eaee, #0f1f42, #e4eaee);
+ }
+ 15% {
+  background: -webkit-radial-gradient(#e4eaee, #0f1f42, #e4eaee);
+}
+25% {
+ background: -webkit-radial-gradient(#e4eaee, #92a3cf, #ffffff);
+}
+50% {
+ background: -webkit-radial-gradient(#e4eaee, #edcea9, #ffffff);
+}
+70% {
+ background: -webkit-radial-gradient(#e4eaee, #fffbef, #ffe8ac);
+}
+100% {
+ background: -webkit-radial-gradient(#e4eaee, #fffbef, #ffe8ac);
+}
+}
+
+
+
+.f1 img{
+  width: 140px;
+}
+
+.f1 {
+  top: 800px;
+  right: 180px;
+  position: relative;
+  text-align: right;
+  animation: f1 12s linear 3s infinite normal;
+}
+
+@keyframes f1 {
+  0%   { right:180px; top:800px;}
+  25%  { right:200px; top:400px;}
+  50%  { right:200px; top:200px;}
+  75%  { right:0px; top:200px;}
+  100% { right:0px; top:0px;}
+}
+
+.f2 img{
+  width: 140px;
+}
+
+.f2 {
+  top: 620px;
+  right: 270px;
+  position: relative;
+  text-align: right;
+  animation: f2 12s linear 3s infinite normal;
+}
+
+@keyframes f2 {
+  0%   { right:270px; top:620px;}
+  25%  { right:500px; top:400px;}
+  50%  { right:200px; top:200px;}
+  75%  { right:0px; top:200px;}
+  100% { right:0px; top:0px;}
+}
+
+
+.f3 img{
+  width: 160px;
+}
+
+.f3 {
+  top: 370px;
+  right: 360px;
+  position: relative;
+  text-align: right;
+  animation: f3 12s linear 3s infinite normal;
+}
+
+@keyframes f3 {
+  0%   { right:360px; top:370px;}
+  25%  { right:400px; top:100px;}
+  50%  { right:200px; top:200px;}
+  75%  { right:0px; top:200px;}
+  100% { right:0px; top:0px;}
+}
+
+
+.f4 img{
+  width: 190px;
+}
+
+.f4 {
+  top: 90px;
+  right: 480px;
+  position: relative;
+  text-align: right;
+  animation: f4 12s linear 3s infinite normal;
+}
+
+@keyframes f4 {
+  0%   { right:480px; top:90px;}
+  25%  { right:400px; top:30px;}
+  50%  { right:700px; top:1px;}
+  75%  { right:500px; top:200px;}
+  100% { right:0px; top:0px;}
+}
+
+
+
+.f5 img{
+  width: 140px;
+}
+
+.f5 {
+  bottom: 6px;
+  right: 560px;
+  position: relative;
+  text-align: right;
+  animation: f5 12s linear 3s infinite normal;
+}
+
+.f6 img{
+  width: 190px;
+}
+
+.f6 {
+  bottom: 270px;
+  right: 620px;
+  position: relative;
+  text-align: right;
+  animation: f6 12s linear 3s infinite normal;
+}
+
+.f7 img{
+  width: 190px;
+}
+
+.f7 {
+  bottom: 470px;
+  right: 730px;
+  position: relative;
+  text-align: right;
+  animation: f7 12s linear 3s infinite normal;
+}
+
+.f8 img{
+  width: 220px;
+}
+
+.f8 {
+  bottom: 840px;
+  right: 680px;
+  position: relative;
+  text-align: right;
+  animation: f8 12s linear 3s infinite normal;
+}
+
+.f9 img{
+  width: 210px;
+}
+
+.f9 {
+  bottom: 1010px;
+  right: 815px;
+  position: relative;
+  text-align: right;
+  animation: f9 12s linear 3s infinite normal;
+}
+
+
+.f10 img{
+  width: 200px;
+}
+
+.f10 {
+  bottom: 1290px;
+  right: 920px;
+  position: relative;
+  text-align: right;
+  animation: f10 12s linear 3s infinite normal;
+}
+
+.f11 img{
+  width: 150px;
+}
+
+.f11 {
+  bottom: 1590px;
+  right: 1005px;
+  position: relative;
+  text-align: right;
+  animation: f11 12s linear 3s infinite normal;
+}
+
+.f13 img{
+  width: 110px;
+}
+
+.f13 {
+  bottom: 1800px;
+  right: 1125px;
+  position: relative;
+  text-align: right;
+  animation: f13 12s linear 3s infinite normal;
+}
+
+.f14 img{
+  width: 140px;
+}
+
+.f14 {
+  bottom: 1930px;
+  right: 1225px;
+  position: relative;
+  text-align: right;
+  animation: f14 12s linear 3s infinite normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    animation: change-color 15s  infinite ;
+    animation-direction: normal;
+}
+
+@keyframes change-color {
+   0% {
+    background-color: #0f1f42;
+  }
+  15% {
+   background-color: #0f1f42;
+ }
+  25% {
+    background-color: #92a3cf;
+  }
+  50% {
+   background-color: #edcea9;
+ }
+ 70% {
+ background-color: #fffbef;
+}
+    100% {
+    background-color: #fffbef;
+  }
+}

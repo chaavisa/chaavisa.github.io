@@ -160,8 +160,8 @@ cursor: url(half2.png), auto;
   position: fixed;
   text-align: left;
   color: #ffffff;
-  top: 680px;
-  left: 370px;
+  top: 640px;
+  left: 340px;
   width: 100%;
   font-size:30px;
   font-family: sans-serif;
@@ -183,6 +183,29 @@ cursor: url(half2.png), auto;
   cursor: url(half2.png), auto;
 }
 
+.motion {
+  position: fixed;
+  text-align: left;
+  color: #ffffff;
+  top: 740px;
+  left: 650px;
+  width: 100%;
+  font-size:30px;
+  font-family: sans-serif;
+}
+
+.mo {
+  background: -webkit-linear-gradient(#cd7c22, #cf4700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: ease all  0.8s ease;
+}
+
+.mo:hover {
+  background: -webkit-radial-gradient(#458ecd, #95b9cc, #dfdac1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 a{
   color: #ffffff;

@@ -1,0 +1,17 @@
+body {
+    animation: change-color 4s  infinite ;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+   0% {
+    background-color: #dfd9c1;
+  }
+  50% {
+    background-color: #95b9cc;
+  }
+
+    100% {
+    background-color: #486bac;
+  }
+}

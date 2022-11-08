@@ -1,0 +1,65 @@
+
+
+.element {
+
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  animation:
+    pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate,
+    blur 4s ease infinite alternate;
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #42471c;
+  }
+  50% {
+    background-color: #eedcc9;
+  }
+}
+
+
+@keyframes nudge {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(150px, 0);
+  }
+
+  80% {
+    transform: translate(-50px, 0);
+  }
+
+  100% {
+    transform: rotate(0.5turn);
+  }
+
+}
+
+@keyframes blur {
+    50% {
+        -webkit-filter: blur(00px); /* Safari */
+        filter: blur(00px);  }
+
+    70% {
+        -webkit-filter: blur(80px); /* Safari */
+        filter: blur(80px);  }
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6e5535;
+}
