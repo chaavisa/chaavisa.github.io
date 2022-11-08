@@ -1,4 +1,4 @@
-html{
+html {
   cursor: url(imgs/butcursor.png), auto;
 }
 
@@ -59,18 +59,20 @@ background-color: #fac374;
 @keyframes rchange {
   0% {
    background: -webkit-radial-gradient(#e4eaee, #0f1f42, #e4eaee);
+   transform: scale(.6);
  }
  15% {
   background: -webkit-radial-gradient(#e4eaee, #0f1f42, #e4eaee);
 }
-25% {
+19% {
  background: -webkit-radial-gradient(#e4eaee, #92a3cf, #ffffff);
 }
 50% {
  background: -webkit-radial-gradient(#e4eaee, #edcea9, #ffffff);
 }
-70% {
+60% {
  background: -webkit-radial-gradient(#e4eaee, #fffbef, #ffe8ac);
+   transform: scale(2);
 }
 100% {
  background: -webkit-radial-gradient(#e4eaee, #fffbef, #ffe8ac);
@@ -88,15 +90,16 @@ background-color: #fac374;
   right: 180px;
   position: relative;
   text-align: right;
-  animation: f1 12s linear 3s infinite normal;
+  animation:
+  f1 12s linear 3s infinite normal;
 }
 
 @keyframes f1 {
   0%   { right:180px; top:800px;}
   25%  { right:200px; top:400px;}
-  50%  { right:200px; top:200px;}
-  75%  { right:0px; top:200px;}
-  100% { right:0px; top:0px;}
+  50%  { right:740px; top:200px;}
+  75%  { right:900px; top:100px;}
+  100% { right:800px; top:400px;}
 }
 
 .f2 img{
@@ -135,9 +138,9 @@ background-color: #fac374;
 @keyframes f3 {
   0%   { right:360px; top:370px;}
   25%  { right:400px; top:100px;}
-  50%  { right:200px; top:200px;}
-  75%  { right:0px; top:200px;}
-  100% { right:0px; top:0px;}
+  50%  { right:500px; top:200px;}
+  75%  { right:1000px; top:100px;}
+  100% { right:800px; top:80px;}
 }
 
 
@@ -273,9 +276,30 @@ background-color: #fac374;
 }
 
 
+.sf {
+  color: white;
+  font-family: sans-serif;
+  position: fixed;
+  text-align: none;
+  top: 140px;
+  left: 150px;
+  width: 100%;
+  font-size: 50px;
+  animation: text 15s infinite normal;
+}
 
+@keyframes text {
+  0% {
+   color: #d8dee3;
+ }
+ 50% {
+  color: #d8dee3;
+}
+  100% {
+  color: #fac374;
+}
 
-
+}
 
 
 
