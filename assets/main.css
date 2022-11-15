@@ -169,6 +169,17 @@ a.chaa:hover {
 
 }
 
+.iframe {
+  position: fixed;
+  text-align: right;
+  color: #ffffff;
+  top: 690px;
+  right: 1160px;
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
 
 
 a{

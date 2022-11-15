@@ -207,6 +207,33 @@ cursor: url(half2.png), auto;
   -webkit-text-fill-color: transparent;
 }
 
+.iframe {
+  position: fixed;
+  text-align: left;
+  color: #ffffff;
+  top: 840px;
+  left: 1050px;
+  width: 100%;
+  font-size:30px;
+  font-family: sans-serif;
+}
+
+
+.i {
+  background: -webkit-linear-gradient(#458ecd, #95b9cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.i:hover {
+  background: -webkit-radial-gradient(#cd7c22, #cf4700, #dfd9c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  cursor: url(half2.png), auto;
+}
+
 a{
   color: #ffffff;
 }

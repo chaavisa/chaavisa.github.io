@@ -1,7 +1,22 @@
 body {
-  background-color: #92a3cf;
+  background-color: #eeebe4;
 }
 
+p {
+color: #6c4f31;
+font-family: sans-serif;
+text-align: center;
+bottom: 800px;
+font-size: 30px;
+position: relative;
+}
 
-
-<iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+iframe {
+  border: none;
+  height: 800px;
+  width:1200px;
+  overflow: auto;
+  position: relative;
+  left: 300px;
+  top: 90px;
+}

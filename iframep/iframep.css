@@ -1,0 +1,74 @@
+@font-face {
+  src: url(fonts/ProdigySans-Light.ttf);
+  font-family: pro;
+}
+
+body {
+  background-color: #f0ece3;
+}
+
+.choose {
+  font-size: 70px;
+  font-family: pro;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  color: #422e19;
+}
+
+.destination {
+  text-align: center;
+}
+
+.surf {
+  width: 230px;
+	height: 230px;
+	border-radius: 20%;
+  position: relative;
+  top: 300px;
+
+}
+
+.surf:hover {
+  border-radius: 50%;
+  transition-duration: 0.6s;
+}
+
+.beach {
+  width: 230px;
+  height: 230px;
+  border-radius: 20%;
+  position: relative;
+  top: 300px;
+}
+
+.beach:hover {
+  border-radius: 50%;
+  transition-duration: 0.6s;
+}
+
+.snorkeling {
+  width: 230px;
+  height: 230px;
+  border-radius: 20%;
+  position: relative;
+  top: 300px;
+}
+
+.snorkeling:hover {
+  border-radius: 50%;
+  transition-duration: 0.6s;
+}
+
+.kayak {
+  width: 230px;
+  height: 230px;
+  border-radius: 20%;
+  position: relative;
+  top: 300px;
+}
+
+.kayak:hover {
+  border-radius: 50%;
+  transition-duration: 0.6s;
+}
